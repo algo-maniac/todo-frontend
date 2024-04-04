@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./styles/app.scss";
 import { createContext } from "react";
-export const server = "https://localhost:8000/api/v1";
+export const server = "https://todo-backend-five-mu.vercel.app/api/v1";
 
 export const Context = createContext({ isAuth: false });
 
